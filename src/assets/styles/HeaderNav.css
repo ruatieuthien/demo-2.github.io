@@ -1,0 +1,37 @@
+.menu{
+    height: 720px;
+
+}
+.logo-text{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.item-phone{
+    text-decoration: none;
+    line-height: var(--el-menu-item-height);
+    font-size: var(--el-menu-item-font-size);
+    color: var(--el-menu-text-color);
+    float: left;
+    text-align: left;
+}
+/* .logout{
+    margin-top: 100px;
+    
+} */
+.el-col-12{
+    max-width:  100% !important;
+}
+.tac{
+    height: 720px !important;
+}
+.el-menu{
+    height: 100% !important;
+}
+.mb-2.logo{
+    background-color: #545c64;
+    padding-top: 10px;
+}
+.el-sub-menu .el-sub-menu__icon-arrow{
+    display: none;
+}
