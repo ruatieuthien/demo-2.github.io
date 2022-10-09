@@ -1,0 +1,32 @@
+.item-box{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 230, 230);
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.el-col-6{
+    max-width: 35% !important;
+}
+.item-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-box{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.item-number-box{
+    font-size: 40px;
+}
+.icons-item{
+    font-size: 50px;
+    color: rgb(61, 222, 150);
+}
+.icons-item.second{
+    color: blue;
+}

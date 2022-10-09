@@ -12,13 +12,9 @@ import { useRouter, useRoute} from 'vue-router';
 import { onBeforeMount } from 'vue';
 import firebase from 'firebase/compat/app';
 
-
 export default {
     name: "App",
-    // components: {
-    //   HeaderNav,
-    //   BodyNav
-    // },
+
     setup() {
         const router = useRouter();
         const route = useRoute();

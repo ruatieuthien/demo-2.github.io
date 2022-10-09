@@ -20,13 +20,13 @@
             </template>
           </el-sub-menu>
           <el-menu-item index="2">
-              <router-link to="/" class="item-phone">
+              <router-link to="/dial-phone" class="item-phone">
                 <el-icon><Phone /></el-icon>
                 <span>Dial Phone Number</span>
               </router-link>
           </el-menu-item>
           <el-menu-item index="3">
-            <router-link to="/" class="item-phone">
+            <router-link to="/box-contact" class="item-phone">
               <el-icon><List /></el-icon>
               <span>Contacts</span>
             </router-link>
@@ -38,13 +38,13 @@
             </router-link>
           </el-menu-item>
           <el-menu-item index="5">
-            <router-link to="/" class="item-phone">
+            <router-link to="/my-location" class="item-phone">
               <el-icon><Location /></el-icon>
               <span>My Location</span>
             </router-link>
           </el-menu-item>
           <el-menu-item index="6">
-            <router-link to="/" class="item-phone">
+            <router-link to="/setting" class="item-phone">
               <el-icon><setting /></el-icon>
               <span>Settings</span>
             </router-link>
